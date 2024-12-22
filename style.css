@@ -50,21 +50,20 @@ main {
 }
 
 .content-text {
-  padding: 1rem;
+  padding: 0.3rem;
 }
 
 .content-text h3 {
   text-align: center;
   color: var(--color-text-secondary);
-  font-size: 27px;
+  font-size: 22px;
   margin-top: 1rem;
   font-weight: 700;
 }
 
 .content-text p {
   margin-top: 1.3rem;
-  font-size: 19px;
-  align-items: center;
+  font-size: 16px;
   text-align: center;
   color: var(--color-background-light);
   line-height: 1.5;
@@ -73,8 +72,8 @@ main {
 /* ////////////////////////////////////////////// */
 @media screen and (min-width: 1024px) {
   main {
-    margin-top: 0.8rem;
-    padding: 1rem;
+    margin-top: 7rem;
+    padding: 4rem;
   }
   .contents {
     width: 20rem;
@@ -83,10 +82,10 @@ main {
     padding: 0.7rem;
   }
   .content-text h3 {
-    font-size: 24px;
+    font-size: 27px;
   }
   .content-text p {
     margin-top: 1.3rem;
-    font-size: 17px;
+    font-size: 19px;
   }
 }
