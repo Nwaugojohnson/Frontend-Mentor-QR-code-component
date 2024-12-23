@@ -15,10 +15,13 @@ body {
   /* font-family: sans-serif; */
 }
 
-.Outfit {
-  font-family: "Outfit";
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.outfit-<outfit-400> {
+  font-family: "Outfit", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: <400>;
   font-style: normal;
 }
 
@@ -63,7 +66,7 @@ main {
 
 .content-text p {
   margin-top: 1.3rem;
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
   color: var(--color-background-light);
   line-height: 1.5;
